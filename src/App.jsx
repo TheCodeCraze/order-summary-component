@@ -29,9 +29,9 @@ export const App = () => {
         <button className={styles["cta-payment"]} aria-label="Click to pay">
           Proceed to Payment
         </button>
-        <p className={styles["cta-cancel"]} aria-label="Click to cancel">
+        <button className={styles["cta-cancel"]} aria-label="Click to cancel">
           Cancel Order
-        </p>
+        </button>
       </div>
     </main>
   );
