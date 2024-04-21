@@ -111,3 +111,52 @@
 .cta-cancel:hover {
   color: var(--dark-blue);
 }
+
+@media screen and (max-width: 500px) {
+  .card {
+    width: 327px;
+    height: 567px;
+  }
+
+  .image {
+    height: 160px;
+  }
+
+  .text {
+    padding: 32px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .description {
+    margin: 16px 0 24px;
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .info {
+    height: 81px;
+    padding: 17px 16px 16px;
+  }
+
+  .plan {
+    margin-right: 30px;
+    gap: 3px;
+  }
+
+  .name,
+  .price {
+    font-size: 14px;
+  }
+
+  .change {
+    font-size: 13px;
+    text-underline-offset: 2px;
+  }
+
+  .cta-payment {
+    margin: 24px 0;
+  }
+}

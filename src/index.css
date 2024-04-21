@@ -24,3 +24,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    height: 709px;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  body {
+    background: url("/pattern-background-mobile.svg") top left no-repeat
+      var(--pale-blue);
+    background-size: 100%;
+  }
+}
