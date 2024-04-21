@@ -1,0 +1,113 @@
+.card {
+  width: 450px;
+  height: 697px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: hsla(228, 87%, 40%, 0.1518) 0px 40px 40px -20px;
+}
+
+.image {
+  width: 100%;
+  height: 220px;
+  border-radius: 20px 20px 0 0;
+}
+
+.text {
+  padding: 45px 48px 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.description {
+  margin: 17px 0 20px;
+  font-weight: 500;
+  color: var(--desaturated-blue);
+  line-height: 26px;
+  text-align: center;
+}
+
+.info {
+  width: 100%;
+  height: 98px;
+  background: var(--very-pale-blue);
+  padding: 25px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 11px;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+}
+
+.plan {
+  margin-right: 78px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.name {
+  font-weight: 900;
+  color: var(--dark-blue);
+}
+
+.price {
+  font-weight: 500;
+  color: var(--desaturated-blue);
+}
+
+.change {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: 1px underline var(--bright-blue);
+  text-underline-offset: 3px;
+  color: var(--bright-blue);
+  cursor: pointer;
+}
+
+.change:hover {
+  text-decoration: none;
+  color: #756af1;
+}
+
+.cta-payment {
+  width: 100%;
+  height: 50px;
+  background: var(--bright-blue);
+  margin: 32px 0;
+  font-size: 15px;
+  font-weight: 900;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 11px;
+  box-shadow: hsla(245, 75%, 52%, 0.1903) 0 20px 20px;
+  cursor: pointer;
+}
+
+.cta-payment:hover {
+  background: #756af1;
+}
+
+.cta-cancel {
+  font-size: 15px;
+  font-weight: 900;
+  color: var(--desaturated-blue);
+  cursor: pointer;
+}
+
+.cta-cancel:hover {
+  color: var(--dark-blue);
+}
